@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.sm-button {
+    width: 30%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;    
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid;    
+    border-radius: 4px;
+    border-color: #F7924A;  
+    cursor: pointer;
+    user-select: none;
+}
+
+.sm-button:hover {
+    box-shadow: 0px 0px 8px 0px #F7924A;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.4em;
+    padding: 20px;  
+    position: relative;  
+}
